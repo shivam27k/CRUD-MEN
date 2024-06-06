@@ -17,9 +17,9 @@ app.get('/', (req, res) => {
 
 mongoose
 	.connect(
-		`mongodb+srv://shivam27k:${encodeURIComponent(
-			'Shivam@27+1'
-		)}@learningmongodb.4tep9h4.mongodb.net/?retryWrites=true&w=majority&appName=LearningMongoDB`
+		`mongodb+srv://yourUsername:${encodeURIComponent(
+			'yourPassword'
+		)}@yourMongoDbLink`
 	)
 	.then(() => {
 		console.log('Connected to MongoDB')
